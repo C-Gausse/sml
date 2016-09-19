@@ -11,7 +11,7 @@ public class TaskDemo {
 		mq.init();
 		for(int i=0;i<30;i++){
 			mq.add(new Task1());
-			try { 
+			try {
 				Thread.sleep(10);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
